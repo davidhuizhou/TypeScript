@@ -50,6 +50,11 @@ To disable Deno for specific subfolders (e.g. a pure Node.js project):
 }
 ```
 
+Restart the language server - Sometimes the LSP gets out of sync:
+
+- Cmd+Shift+P → "Deno: Restart Language Server" or
+- Cmd+Shift+P → "Developer: Reload Window"
+
 > **Note:** `deno.disablePaths` disables Deno LSP entirely for those paths.
 > Do NOT add folders where you want Deno notebooks to work.
 
